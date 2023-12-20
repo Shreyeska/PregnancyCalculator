@@ -26,10 +26,14 @@
     border-radius: 20px;
 }
 
-.result{
+#result{
     font-family: cursive;
     font-size: 20px;
     font-style:oblique;
+    
+}
+.result-section{
+  background-image:image()
 }
 
 .btn {
@@ -37,9 +41,28 @@
     font-style:oblique;
 }
 
-#week{
-    font-family: cursive;
-    font-size: 20px;
-    font-style:oblique;
+
+.trimester-title{
+  width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background-color: #FFDBDB; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: black;
+      font-size: 20px;
+      margin-left: 42%;
 }
 
+p{
+  font-size: 20px;
+}
+
+.mile{
+  font-size: 25px;
+}
+ .bcg{
+  background-image: url(/public/images/resultbcg.png);
+   
+ }
